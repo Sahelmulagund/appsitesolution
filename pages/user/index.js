@@ -20,10 +20,10 @@ const UserIndex = () => {
         
         </li>
 
-        <li className="list-group-item">
-        <Link href="/user/crud/blogs">
-        <a>Update/Delete Blogs</a>
-        </Link>
+         <li className="list-group-item">
+        
+        <a href="/user/crud/blogs">Update/Delete Projects</a>
+        
         </li>
          <li className="list-group-item">
         <Link href="/user/update">
