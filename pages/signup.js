@@ -1,5 +1,5 @@
 import Layout from '../components/Layout'
-import Link from 'next/Link'
+import Link from 'next/link'
 import {
   Card, CardImg, CardText, CardBody,
   CardTitle, CardSubtitle, Button

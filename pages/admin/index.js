@@ -1,6 +1,6 @@
 import Layout from '../../components/Layout';
 import Admin from '../../components/auth/Admin';
-import Link from 'next/Link'
+import Link from 'next/link'
 
 const AdminIndex = () => {
 	return(
@@ -25,9 +25,9 @@ const AdminIndex = () => {
         </li>
 
         <li className="list-group-item">
-        <Link href="/admin/crud/blogs">
-        <a>Update/Delete Projects</a>
-        </Link>
+        
+        <a href="/admin/crud/blogs">Update/Delete Projects</a>
+        
         </li>
         <li className="list-group-item">
         <Link href="/user/update">
